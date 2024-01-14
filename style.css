@@ -1,0 +1,87 @@
+.{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  padding-left: 0px;
+}
+.first{
+  display: flex;
+  width: 50px;
+  height: 70px;
+  align-items: center;
+  align-items: space-between;
+}
+ul,li{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 35px;
+  align-items: center;
+  font-size: 30px;
+}
+.last{
+  display: flex;
+justify-content: space-around;
+}
+main{
+  height: (100vw-300px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0px;
+  padding: 0px;
+align-items: center;
+
+}
+.right{
+  min-width: 400px;
+  height: auto;
+}
+.left{
+  min width: 70%;
+}
+main h1{
+  font-size: 70px;
+
+}
+main p{
+  font-size: 50px;
+  color: grey;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin: 30px;
+}
+.btn{
+  background-color: black;
+  border-radius: 10px;
+  height: 47px;
+  width: 250px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  color: white;
+  font-weight: 700;
+}
+.lower{
+  display: flex;
+}
+.register-btn{
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  
+}
+.menu{
+  display: none;
+}
